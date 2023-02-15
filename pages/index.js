@@ -12,7 +12,7 @@ import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
 import web1 from "../public/swapi.png";
-import web2 from "../public/web2.png";
+import web2 from "../public/eSport.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
@@ -42,7 +42,8 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  href="https://drive.google.com/file/d/1ItrhB_0X0CmKwD4N4JLcc_aHylBGs6-V/view?usp=share_link"
+                  target="_blank"
                 >
                   Download CV
                 </a>
@@ -91,7 +92,7 @@ export default function Home() {
               fascinado com a habilidade de criar soluções complexas com código.
               Além de minha formação na Kenzie Academy, tenho experiência em
               HTML | CSS | JAVASCRIPT | REACT | TYPESCRIPT | GITHUB | GITFLOW |
-              SCRUM.
+              SCRUM | TAILWIND CSS | NEXT JS
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Estou ansioso por colocar meus conhecimentos em prática e aprender
@@ -132,7 +133,7 @@ export default function Home() {
               <Image src={consulting} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Organização</h3>
               <p className="py-2">
-                Organização e gerenciamento do meu dia a dia e dos meus projetos
+                gerenciamento do meu dia a dia e dos meus projetos
               </p>
               <h4 className="py-4 text-teal-600">Ferramentas que eu uso</h4>
               <p className="text-gray-800 py-1">Notion</p>
@@ -163,15 +164,17 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web2}
-              />
+              <a href="#" target="_blank">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={web2}
+                />
+              </a>
             </div>
-            <div className="basis-1/3 flex-1">
+            {/* <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -206,7 +209,7 @@ export default function Home() {
                 layout="responsive"
                 src={web6}
               />
-            </div>
+            </div> */}
           </div>
         </section>
       </main>
