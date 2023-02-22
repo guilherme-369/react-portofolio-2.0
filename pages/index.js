@@ -78,8 +78,10 @@ export default function Home() {
                 <AiFillLinkedin />
               </a>
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={avatar} layout="fill" objectFit="cover" />
+            <div className="mx-auto bg-gradient-to-b flex items-center justify-center  from-teal-500  rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+              <div className="text-center">
+              <Image src={avatar} layout="fill" objectFit="cover" className="mx-auto" />
+              </div>
             </div>
           </div>
         </section>
