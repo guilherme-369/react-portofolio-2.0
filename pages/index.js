@@ -168,7 +168,7 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a href="#">
+              <a href="https://github.com/guilherme-369/nlw-web">
                 <Image
                   className="rounded-lg object-cover"
                   width={"100%"}
